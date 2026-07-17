@@ -1,0 +1,87 @@
+
+p{
+    color:white 
+}
+body{
+    background-color: #353839;
+}
+p.cover-letter-body {
+    color:purple
+}
+.coverlettersection {
+    text-align: center;
+    color: white;
+}
+.coverletter-header {
+    text-align: center;
+    color: white;
+}
+.coverletterpage {
+    background-color: #353839;
+}
+.navbar ul{
+    color: turquoise;list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+.navbar a {
+  color: turquoise;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar a:hover {
+    color:blue;
+  text-decoration: underline;
+}
+.coverlettercontent{
+    display:flex;
+    justify-content:center;
+    padding:5px;
+    margin-left:500px;
+    margin-right:500px;
+}
+.resumeheader{
+    color:white;
+
+}
+.resumecontent{
+    color:white
+}
+.careergoalscontent{
+    color:white;
+}
+#current-date {
+    font-style: italic;
+    color:white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#current-date {
+    font-style: italic;
+}
+
+table,
+th,
+td {
+    border: 1px solid turquoise;
+}
+a[href^="mailto:"],
+a[href^="tel:"] {
+    color: #7fdbff;
+    text-decoration: underline;
+}
+
+a[href^="mailto:"]:hover,
+a[href^="tel:"]:hover {
+    color: turquoise;
+}
